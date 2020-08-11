@@ -1,0 +1,16 @@
+/* cyrillic */
+@font-face {
+    font-family: 'Rubik';
+    font-style: normal;
+    font-weight: 300;
+    font-display: swap;
+    src: local('Rubik Light'), local('Rubik-Light'), url(./fonts/Rubik-Light.ttf) format('woff2');
+}
+/* cyrillic */
+@font-face {
+    font-family: 'Rubik';
+    font-style: normal;
+    font-weight: 400;
+    font-display: swap;
+    src: local('Rubik'), local('Rubik-Regular'), url(./fonts/Rubik-Regular.ttf) format('woff2');
+}

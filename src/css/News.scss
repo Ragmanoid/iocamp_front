@@ -1,0 +1,62 @@
+@import "../variables.scss";
+
+.newsGrid {
+	.newsBlock {
+		width: calc(33.3333333% - 40px);
+		margin: 20px 20px;
+		height: 100%;
+		border-radius: 10px;
+		border: 2px $main solid;
+		padding: 18px 22px;
+		color: $main;
+		display: inline-block;
+		position: relative;
+		left: -20px;
+		vertical-align: top;
+
+		.title {
+			font-weight: 600;
+			font-size: 24px;
+			line-height: 28px;
+			text-align: justify;
+		}
+
+		.body {
+			margin-top: 10px;
+			font-size: 24px;
+			line-height: 28px;
+		}
+
+		hr {
+			background-color: $main
+		}
+
+		.footer {
+			font-weight: 300;
+			font-size: 24px;
+		}
+	}
+}
+
+@media (max-width: 1300px) {
+	.newsGrid {
+		.newsBlock {
+			width: calc(50% - 40px);
+		}
+	}
+}
+
+@media (max-width: 930px) {
+	.newsGrid {
+		.newsBlock {
+			width: 100%;
+		}
+	}
+}
+
+
+.news {
+	margin-top: 30px;
+	font-size: 36px;
+	font-weight: bold;
+}

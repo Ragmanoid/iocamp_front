@@ -1,0 +1,11 @@
+@import "../variables.scss";
+
+.menu {
+	padding-left: 0;
+	padding-right: 0;
+	box-shadow: 0 17px 10px -15px rgba(0, 0, 0, 0.25);
+
+	.brand {
+		margin-left: 0;
+	}
+}
